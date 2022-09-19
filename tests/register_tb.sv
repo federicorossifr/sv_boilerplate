@@ -38,8 +38,4 @@ module register_tb ();
         data <= data + 1;
     end
 
-    always @(negedge clk) begin
-        $display("%d",out);
-    end
-
 endmodule
